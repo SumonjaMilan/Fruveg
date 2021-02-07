@@ -1,0 +1,177 @@
+
+/* SHOWCASE ANIMATION */
+
+.inactive{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+#BLnumber2, #AVnumber1{
+  font-size: .6rem;
+  opacity: 60%;
+}
+
+
+
+/* PRODUCTS BOTTOM SLIDE FROM BOTTOM */
+
+@keyframes slideInFromBottom{
+  0%{
+    transform: translateY(100%);
+  }
+
+  100%{
+    transform: translateY(0%);;
+  }
+}
+
+@keyframes slideInFromTop{
+  0%{
+    transform: translateY(-100%);
+  }
+
+  100%{
+    transform: translateY(0%);;
+  }
+}
+
+@keyframes slideInFromLeft{
+  0%{
+    transform: translateX(-100%);
+  }
+
+  100%{
+    transform: translateX(0%);;
+  }
+}
+
+@keyframes slideInFromRight{
+  0%{
+    transform: translateX(100%);
+  }
+
+  100%{
+    transform: translateX(0%);;
+  }
+}
+
+.first .active .showcase-fruit-text {
+  animation: slideInFromLeft .7s ease-in;
+}
+
+.first .active .showcase-text{
+  animation: slideInFromRight .7s ease-in;
+}
+
+.first .active .showcase-image{
+  animation: slideInFromTop .7s linear;
+}
+
+.products-bottom{
+  animation: slideInFromBottom 1s ease-in;
+}
+
+
+@media (max-width:920px){
+  .first .active .showcase-text {
+    animation: none;
+  }
+
+  .first .active .showcase-image{
+    animation: slideInFromLeft 1s ease-in;
+  }
+}
+
+
+
+
+/* BESTSELLERS ANIMATION */
+.card .spano{
+    transition: 0.5;
+    opacity: 0;
+  }
+ 
+  .card:hover .spano{
+    opacity: 100%;
+    
+  }
+  .card .spano:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,transparent , var(--secondary-color));
+    animation: animate1 2s linear infinite;
+  }
+ 
+  @keyframes animate1{
+    0% {
+      transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(100%);
+    }
+  }
+ 
+  .card .spano:nth-child(2){
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 2px;
+   height: 100%;
+   background: linear-gradient(to bottom,transparent , var(--secondary-color));
+   animation: animate2 2s linear infinite;
+   animation-delay: 1s;
+ }
+ 
+ @keyframes animate2{
+   0% {
+     transform: translateY(-100%);
+   }
+   100%{
+     transform: translateY(100%);
+   }
+ }
+ 
+ .card .spano:nth-child(3){
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(to left,transparent , var(--secondary-color));
+   animation: animate3 2s linear infinite;
+ }
+ 
+ @keyframes animate3{
+   0% {
+     transform: translateX(100%);
+   }
+   100%{
+     transform: translateX(-100%);
+   }
+ }
+ 
+ .card .spano:nth-child(4){
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 2px;
+   height: 100%;
+   background: linear-gradient(to top,transparent ,var(--secondary-color));
+   animation: animate4 2s linear infinite;
+   animation-delay: 1s;
+ }
+ 
+ @keyframes animate4{
+   0% {
+     transform: translateY(100%);
+   }
+   100%{
+     transform: translateY(-100%);
+   }
+ }

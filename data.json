@@ -1,0 +1,236 @@
+[
+    
+    {
+        "id":"1",
+        "name":"Tomatoes",
+        "description":"A tomato is a nutrient-dense superfood that offers benefit to a range of bodily systems. Its nutritional content supports healthful skin, weight loss, and heart health. The fruits on these plants are produced continually through the season along the side shoots of the plant.",
+        "price":49,
+        "previousPrice":80,
+        "inCart":0,
+        "img":"./images/tomatoes.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"2",
+        "name":"Limes",
+        "description":"Limes are a citrus fruit often used to accent flavors in foods. They are a common ingredient in Mexican, Vietnamese, and Thai cuisine.They're nutritional powerhouses — high in vitamin C, antioxidants, and other nutrients.",
+        "price":36,
+        "previousPrice":60,
+        "inCart":0,
+        "img":"./images/lime.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"3",
+        "name":"Raspberry",
+        "description":"Raspberries are a popular berry with a rich color and sweet juicy taste. They are a good source of vitamins, minerals, and antioxidants.Raspberries can range in color from the popular red and black varieties to purple, yellow, or golden. Each color of berry has a unique composition of vitamins, minerals, and antioxidants.",
+        "price":93,
+        "previousPrice":110,
+        "inCart":0,
+        "img":"./images/raspberry.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"4",
+        "name":"Pomegranate",
+        "description":"Pomegranate juice contains more than 100 phytochemicals. The pomegranate fruit has been used for thousands of years as medicine.Today, pomegranate juice is being studied for its many health benefits. It may help with cancer prevention, immune support, and fertility.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/pomegranate.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"5",
+        "name":"Lettuce",
+        "description":"Lettuce and other raw vegetables can be a quick and easy addition to sandwiches, wraps, or burgers, or they can form the base of a mixed salad. This versatility makes them a convenient way for people to add more nutrients to their meals.",
+        "price":24,
+        "previousPrice":40,
+        "inCart":0,
+        "img":"./images/lettuce.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"6",
+        "name":"Melon",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/melon.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"7",
+        "name":"Mandarin",
+        "description": "Lettuce and other raw vegetables can be a quick and easy addition to sandwiches, wraps, or burgers, or they can form the base of a mixed salad. This versatility makes them a convenient way for people to add more nutrients to their meals.",
+        "price":90,
+        "previousPrice":120,
+        "inCart":0,
+        "img":"./images/mandarins.jpg",
+        "type":"fruit"
+    },
+    
+    {
+        "id":"8",
+        "name":"Strawberries",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/strawberries.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"9",
+        "name":"Paprika",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/paprikas.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"10",
+        "name":"Apple",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/apple.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"11",
+        "name":"Watermelon",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/watermelon.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"12",
+        "name":"Banana",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/banana.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"13",
+        "name":"Grapes",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/grape.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"14",
+        "name":"Kiwi",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/kiwi.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"15",
+        "name":"Orange",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/orange.jpg",
+        "type":"fruit"
+    },
+    {
+        "id":"16",
+        "name":"Beans",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/beans.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"17",
+        "name":"Eggplant",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/eggplant.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"18",
+        "name":"Cucumber",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/cucumber.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"19",
+        "name":"Carrot",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/carrot.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"20",
+        "name":"Onion",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/onion.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"21",
+        "name":"Potato",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/potato.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"22",
+        "name":"Corn",
+        "description":"Melon makes a refreshing snack in the summer, and it contains nutrients that can benefit a person’s health.Popular with children and adults, melon can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.",
+        "price":78,
+        "previousPrice":100,
+        "inCart":0,
+        "img":"./images/corn.jpg",
+        "type":"veggie"
+    },
+    {
+        "id":"23",
+        "name":"Avocado",
+        "description":"Avocados are a stone fruit with a creamy texture that grow in warm climates.Avocados are a naturally nutrient-dense food and contain nearly 20 vitamins and minerals. Their potential health benefits include improving digestion, decreasing risk of depression, and protection against cancer.",
+        "price":99,
+        "previousPrice":170,
+        "inCart":0,
+        "img":"./images/avocado2.jpg",
+        "type":"veggie"
+    }
+        
+]
+

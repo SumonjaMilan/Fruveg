@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="301px" viewBox="0 0 300 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>step2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-736.000000, -33.000000)">
+            <g id="step2" transform="translate(735.000000, 33.000000)">
+                <circle id="Oval-Copy-2" fill="#515151" cx="150.5" cy="149.5" r="149.5"></circle>
+                <path d="M67.253604,111.889125 C148.391726,113.536464 213.659379,179.825064 213.659379,261.357741 C213.659379,295.526965 202.196207,327.018822 182.905766,352.197407 L67.253598,134.687335 L67.253598,111.889125 Z" id="Combined-Shape-Copy-2" fill="#E0D245" transform="translate(140.456489, 232.043270) rotate(118.000000) translate(-140.456489, -232.043270) "></path>
+                <path d="M154.000006,1.22742953e-07 C235.138128,1.64733877 300.405781,67.9359386 300.405781,149.468616 C300.405781,183.63784 288.942609,215.129697 269.652168,240.308282 L154,22.7982093 L154,2.62012634e-14 Z" id="Combined-Shape-Copy" fill="#E0D245"></path>
+                <circle id="Oval-2-Copy" fill="#1A1A1A" cx="150" cy="149" r="130"></circle>
+                <text id="STEP-Copy" opacity="0.527035841" font-family="Montserrat-Medium, Montserrat" font-size="40" font-weight="400" letter-spacing="3.14606667" fill="#FFFFFF">
+                    <tspan x="92" y="194">STEP</tspan>
+                </text>
+                <text id="02" font-family="Montserrat-Medium, Montserrat" font-size="60" font-weight="400" letter-spacing="4.71910238" fill="#FFFFFF">
+                    <tspan x="108" y="137">02</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

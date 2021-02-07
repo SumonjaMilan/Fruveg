@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Fruveg</title>
+</head>
+<body id='cartBody'>  
+    <nav class="nav container">  
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a class="logo" href="index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
+        
+        <ul class="navigations">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            
+        </ul>    
+        
+        <li >
+            <a  id="shopping-cart" href="cart.html">
+                <i class="fas fa-shopping-basket "><span class="CartItemsNumber"> 0</span></i>
+            </a>
+        </li>  
+    </nav>
+
+
+    <div class="bonuswrapper">
+        <h2>Please Insert your Name and Email and we will send you your first purchase bonus on Email.</h2>
+        <form action="#" class="bonusform ">
+            <input type="text" id="bonusName"  name="fullname" placeholder="Name" required>
+            <input type="text" id="bonusEmail" name="email" placeholder="Email" required>
+
+            <input type="submit" id="bonusButtonFinish" value="GET YOUR BONUS" >
+        </form>
+    </div>
+
+    <footer class="footer">
+        
+        <div class="main-content">
+            <div class="content">
+                <div class="footernav">
+                    
+                        <a href="index.html">Home</a>
+                        <a href="shop.html">Shop</a>          
+                    
+                </div>
+                <div class="icons">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Belgrade,Serbia</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+593-25353277</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">fruveg@gmail.com</span>
+                    </div>                      
+                </div>
+                <div class="newsletter">
+                    <h2>Subscribe to Newsletter</h2>
+                      <form class="newsletterForm" action="#">
+                        <input type="email"  placeholder="Email" name="email" required>
+                        <button class="newsletterInput"  type="submit">Subscribe</button>
+                      </form>
+                </div>
+            </div>            
+        </div>
+
+        <div class="bottom">
+            
+          <center>
+            <div class="social">
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                
+             </div> 
+             <div class="credits">
+                 <span class="credit">Created By<span class="creatorName"> Milan Sumonja </span> | </span>
+                <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+            </div>
+            
+          </center>
+        </div>
+      </footer>
+      
+    
+      <script src="app.js"></script>
+      <script src="ui.js"></script>
+</body>
+
+
+</html>
