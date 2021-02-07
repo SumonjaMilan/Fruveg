@@ -335,7 +335,7 @@ button{
  /* BESTSELLERS */
 
  .bestsellers{
-  background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url(./images/gray.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url(../images/gray.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -723,7 +723,7 @@ footer {
 }
 
 footer .bonus{
-  background:  url("./images/lemon.jpg");
+  background:  url("../images/lemon.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -982,7 +982,7 @@ span.fa-instagram{
 
 #cartBody {
   /* overflow-x: initial !important; */
-  background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),  url(./images/gray.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ),  url(../images/gray.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1190,7 +1190,7 @@ span.fa-instagram{
 }
 
 .fruitNVeggieBody{
-  background:  url("./images/background.jpg");
+  background:  url("../images/background.jpg");
   background-size:cover;
   background-position: center;
 }
@@ -1423,7 +1423,7 @@ select {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url(./images/checkout-back.jpg);
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),  url(../images/checkout-back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1737,7 +1737,7 @@ select {
     left:  -100%;
     text-align: center;
     transition: all 1s;
-    background:  url("./images/mobileMenu.jpg");
+    background:  url("../images/mobileMenu.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
