@@ -1,3 +1,13 @@
+//Scroll BAr
+//Scroll BAr
+//Scroll BAr
+let progressBar = document.querySelector('.progressBar');
+let totalPageHeight = document.body.scrollHeight - window.innerHeight;
+window.onscroll = () => {
+    let newProgressHeight = (window.pageYOffset / totalPageHeight) * 100;
+    progressBar.style.height = `${newProgressHeight}%`;
+}
+
 // Counter for clicking plus and minus
 // Counter for clicking plus and minus
 // Counter for clicking plus and minus
