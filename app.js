@@ -1,3 +1,24 @@
+//Loader function
+//Loader function
+//Loader function
+//Loader function
+
+const loader = document.querySelector('.preload');
+const main = document.querySelector('.main');
+
+function init() {
+  setTimeout(() => {
+    loader.style.opacity = 0;
+    loader.style.display = 'none';
+
+    main.style.display = 'block';
+    setTimeout(() => (main.style.opacity = 1), 100);
+  }, 4000);
+}
+init();
+
+
+
 // SHOPPING CART
 // SHOPPING CART
 // SHOPPING CART
@@ -657,20 +678,23 @@ const checkout = () => {
     let checkoutContainer = document.querySelector('.checkout-flex1');
     let totalBill = document.querySelector('.totalBill');
     
-    for(let i=0; i<Object.keys(cartItemss).length; i++){ 
-        let checkoutItem = document.createElement('div');
-        checkoutItem.classList.add('checkoutItem');
-        checkoutItem.innerHTML = `
-        <img src="${cartItemss[Object.keys(cartItemss)[i]].img}">
-        <div class="checkoutNamenPrice">
-            <h4> ${cartItemss[Object.keys(cartItemss)[i]].inCart}x ${cartItemss[Object.keys(cartItemss)[i]].name}</h4>
-            <p>${cartItemss[Object.keys(cartItemss)[i]].inCart*cartItemss[Object.keys(cartItemss)[i]].price}$</p>
-        </div>
-        `
-        try{
-            checkoutContainer.appendChild(checkoutItem);
-        }catch(err){}  
-    }
+    try{
+        for(let i=0; i<Object.keys(cartItemss).length; i++){ 
+            let checkoutItem = document.createElement('div');
+            checkoutItem.classList.add('checkoutItem');
+            checkoutItem.innerHTML = `
+            <img src="${cartItemss[Object.keys(cartItemss)[i]].img}">
+            <div class="checkoutNamenPrice">
+                <h4> ${cartItemss[Object.keys(cartItemss)[i]].inCart}x ${cartItemss[Object.keys(cartItemss)[i]].name}</h4>
+                <p>${cartItemss[Object.keys(cartItemss)[i]].inCart*cartItemss[Object.keys(cartItemss)[i]].price}$</p>
+            </div>
+            `
+            try{
+                checkoutContainer.appendChild(checkoutItem);
+            }catch(err){}  
+        }
+    }catch(err){}
+    
     try{
         checkoutContainer.appendChild(checkoutItem);
     }catch(err){}  
