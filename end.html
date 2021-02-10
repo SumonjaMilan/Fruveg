@@ -10,96 +10,105 @@
     <link rel="stylesheet" href="css/style.css">    
     <title>Fruveg</title>
 </head>
-<bod id="endBody">  
-    <nav class="nav container">  
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <a class="logo" href="index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
-        
-        <ul class="navigations">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            
-        </ul>    
-        
-        <li >
-            <a  id="shopping-cart" href="cart.html">
-                <i class="fas fa-shopping-basket "><span class="CartItemsNumber"> 0</span></i>
-            </a>
-        </li>  
-    </nav>
-
-    <div class="endPage">
-        <h2>Thank You.</h2>
-        <h3>Your order was completed successfully. </h3>
-        <p class="OrderNumber"></p>
-        <div class="bla">
-            <p>It will be delivered in 2-7 business days.</p>
-            <p>Email us at fruveg@office.com for any questions, suggestions, or advices.</p>
+<body id="endBody" class="bodyLoader">  
+    <div class="preload">
+        <div class="loaderwrapper">
+            <img class="avocadoLoader" src="./images/AvocadoLoader.png" alt="loader">
         </div>
-        <i class="fas fa-check-circle"></i>
+        <h2>Loading...</h2>
     </div>
-
-    <footer class="footer">
-        <div class="bonus">
-            <h3>First Purchase<br><span>BONUS</span><span><button><a href="bonus.html">GET BONUS</a></button></span> </h3>    
-        </div>
-        <div class="main-content">
-            <div class="content">
-                <div class="footernav">
-                    
-                        <a href="index.html">Home</a>
-                        <a href="shop.html">Shop</a>          
-                    
-                </div>
-                <div class="icons">
-                    <div class="place">
-                        <span class="fas fa-map-marker-alt"></span>
-                        <span class="text">Belgrade,Serbia</span>
-                    </div>
-                    <div class="phone">
-                        <span class="fas fa-phone-alt"></span>
-                        <span class="text">+593-25353277</span>
-                    </div>
-                    <div class="email">
-                        <span class="fas fa-envelope"></span>
-                        <span class="text">fruveg@gmail.com</span>
-                    </div>                      
-                </div>
-                <div class="newsletter">
-                    <h2>Subscribe to Newsletter</h2>
-                      <form class="newsletterForm" action="#">
-                        <input type="email"  placeholder="Email" name="email" required>
-                        <button class="newsletterInput"  type="submit">Subscribe</button>
-                      </form>
-                </div>
-            </div>            
-        </div>
-
-        <div class="bottom">
+    <div class="main">
+        <nav class="nav container">  
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a class="logo" href="index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
             
-          <center>
-            <div class="social">
-                <a href="#"><span class="fab fa-facebook-f"></span></a>
-                <a href="#"><span class="fab fa-instagram"></span></a>
-                <a href="#"><span class="fab fa-twitter"></span></a>
+            <ul class="navigations">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 
-             </div> 
-             <div class="credits">
-                 <span class="credit">Created By<span class="creatorName"> Milan Sumonja </span> | </span>
-                <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
-            </div>
+            </ul>    
             
-          </center>
+            <li >
+                <a  id="shopping-cart" href="cart.html">
+                    <i class="fas fa-shopping-basket "><span class="CartItemsNumber"> 0</span></i>
+                </a>
+            </li>  
+        </nav>
+    
+        <div class="endPage">
+            <h2>Thank You.</h2>
+            <h3>Your order was completed successfully. </h3>
+            <p class="OrderNumber"></p>
+            <div class="bla">
+                <p>It will be delivered in 2-7 business days.</p>
+                <p>Email us at fruveg@office.com for any questions, suggestions, or advices.</p>
+            </div>
+            <i class="fas fa-check-circle"></i>
         </div>
-      </footer>
+    
+        <footer class="footer">
+            <div class="bonus">
+                <h3>First Purchase<br><span>BONUS</span><span><button><a href="bonus.html">GET BONUS</a></button></span> </h3>    
+            </div>
+            <div class="main-content">
+                <div class="content">
+                    <div class="footernav">
+                        
+                            <a href="index.html">Home</a>
+                            <a href="shop.html">Shop</a>          
+                        
+                    </div>
+                    <div class="icons">
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text">Belgrade,Serbia</span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text">+593-25353277</span>
+                        </div>
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">fruveg@gmail.com</span>
+                        </div>                      
+                    </div>
+                    <div class="newsletter">
+                        <h2>Subscribe to Newsletter</h2>
+                          <form class="newsletterForm" action="#">
+                            <input type="email"  placeholder="Email" name="email" required>
+                            <button class="newsletterInput"  type="submit">Subscribe</button>
+                          </form>
+                    </div>
+                </div>            
+            </div>
+    
+            <div class="bottom">
+                
+              <center>
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    
+                 </div> 
+                 <div class="credits">
+                     <span class="credit">Created By<span class="creatorName"> Milan Sumonja </span> | </span>
+                    <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+                </div>
+                
+              </center>
+            </div>
+          </footer>
+    </div>
+    
       
     
       <script src="app.js"></script>
       <script src="ui.js"></script>
-</bod>
+</body>
 
 
 </html>

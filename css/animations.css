@@ -58,22 +58,22 @@
 
 .first .active .showcase-fruit-text {
   animation: slideInFromLeft .9s ease-in;
-  animation-delay: 4s;
+  
 }
 
 .first .active .showcase-text{
   animation: slideInFromRight .9s ease-in;
-  animation-delay: 4s;
+  
 }
 
 .first .active .showcase-image{
   animation: slideInFromTop .9s ease-in;
-  animation-delay: 4s;
+  
 }
 
 .products-bottom{
   animation: slideInFromBottom 1.2s ease-in;
-  animation-delay: 4s;
+  
 }
 
 

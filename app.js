@@ -1,24 +1,3 @@
-//Loader function
-//Loader function
-//Loader function
-//Loader function
-
-const loader = document.querySelector('.preload');
-const main = document.querySelector('.main');
-
-function init() {
-  setTimeout(() => {
-    loader.style.opacity = 0;
-    loader.style.display = 'none';
-
-    main.style.display = 'block';
-    setTimeout(() => (main.style.opacity = 1), 100);
-  }, 4000);
-}
-init();
-
-
-
 // SHOPPING CART
 // SHOPPING CART
 // SHOPPING CART
@@ -37,6 +16,10 @@ const productContainer = document.querySelector(".products-container");
 const checkoutBtn = document.querySelector('.checkoutBtn');
 const firstPage = document.querySelector('.first');
 const newsletterInput = document.querySelector('.newsletterInput');
+const loader = document.querySelector('.preload');
+const main = document.querySelectorAll('.main');
+const bodyLoader = document.querySelectorAll('.bodyLoader');
+const shopBody = document.querySelector('.fruitNVeggieBody');
 
 
 
@@ -54,6 +37,30 @@ if(width > 1500) {
     perPage = 8;
 }else{
     perPage = 9;
+}
+
+
+//Loader animation function
+//Loader animation function
+//Loader animation function
+//Loader animation function
+bodyLoader.forEach(body => {
+    body.style.overflowY = 'hidden';
+});
+
+window.onload = () => {
+    setTimeout(() => {
+        loader.style.opacity = 0;
+        loader.style.display = 'none';
+        bodyLoader.forEach(body => {
+            body.style.overflowY = 'scroll';
+            body.style.display='block';
+        });
+        main.forEach(mainn => {
+            mainn.style.display = 'block';
+            setTimeout(() => (mainn.style.opacity = 1), 20);
+        }); 
+      }, 1000);
 }
 
 

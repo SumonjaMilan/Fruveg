@@ -10,124 +10,133 @@
     <link rel="stylesheet" href="css/style.css">    
     <title>Fruveg</title>
 </head>
-<body class="fruitNVeggieBody">
-    <nav class="nav container">  
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <a class="logo" href="index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
-        
-        <ul class="navigations">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="activeNav" href="shop.html">Shop</a></li>
-            
-        </ul>    
-        
-        <li>
-            <a id="shopping-cart" href="cart.html">
-                <i class="fas fa-shopping-basket"><span class="CartItemsNumber"> 0</span></i>
-            </a>
-        </li>  
-    </nav>
-    <div class="wrapper">
-        <h1 class="shop-heading">
-            SHOP
-        </h1>
-        <h2  class="shop-heading2">Here you can find our best <span>Premium</span> fruits and veggies. </h2>
-        <div class="searchWrapper">
-            <input
-                type="text"
-                name="searchBar"
-                class="searchBar"
-                placeholder="Search..."
-            >   
-            <i class="lupa fas fa-search"></i>
+<body class="fruitNVeggieBody bodyLoader">
+    <div class="preload">
+        <div class="loaderwrapper">
+            <img class="avocadoLoader" src="./images/AvocadoLoader.png" alt="loader">
         </div>
-        
-        <div class="sorting">
-            <select name="sorting" id="sorting">
-                <option value="" disabled selected>SORT BY :</option>
-                <option value="nameasc">Name [A-Z]</option>
-                <option value="namedesc">Name [Z-A]</option>
-                <option value="priceasc">Price [Ascending]</option>
-                <option value="pricedesc">Price [Descending]</option>
-            </select>
-        </div>
-
-        <div id='filtered' class="filtered">
-            
-            <input type='radio' value='all' checked='checked' name='radio' class="radioFiltered" id='radio1'/>
-            <label for='radio1' style="margin-right: 15px;">All</label>
-        
-            <input type='radio' value='fruit' name='radio'  class="radioFiltered" id='radio2'/>
-            <label id='label1' for='radio2'>Fruit </label>
-        
-            <input type='radio' value='veggie' name='radio' class="radioFiltered" id='radio3'/>
-            <label id='label2' for='radio3'>Veggie</label>
-           
-        </div>
-        
-        <h3 class="failedSearchMessage">Oooops... Looks like we don't have that one... <br>But be sure we are working on it.</h3>
-
-        <div id="shopCont" class="shop-page-container item-container">
-        </div>
-        <div class="pagenumbers" id="pagination"></div>
+        <h2>Loading...</h2>
     </div>
-    
-    <footer class="footer">
-        <div class="bonus">
-            <h3>First Purchase<br><span>BONUS</span><span><button><a href="bonus.html">GET BONUS</a></button></span> </h3>    
-        </div>
-        <div class="main-content">
-            <div class="content">
-                <div class="footernav">
-                    
-                        <a href="index.html">Home</a>
-                        <a href="shop.html">Shop</a>          
-                    
-                </div>
-                <div class="icons">
-                    <div class="place">
-                        <span class="fas fa-map-marker-alt"></span>
-                        <span class="text">Belgrade,Serbia</span>
-                    </div>
-                    <div class="phone">
-                        <span class="fas fa-phone-alt"></span>
-                        <span class="text">+593-25353277</span>
-                    </div>
-                    <div class="email">
-                        <span class="fas fa-envelope"></span>
-                        <span class="text">fruveg@gmail.com</span>
-                    </div>                      
-                </div>
-                <div class="newsletter">
-                    <h2>Subscribe to Newsletter</h2>
-                      <form class="newsletterForm" action="#">
-                        <input type="email"  placeholder="Email" name="email" required>
-                        <button class="newsletterInput"  type="submit">Subscribe</button>
-                      </form>
-                </div>
-            </div>            
-        </div>
-
-        <div class="bottom">
+    <div class="main">
+        <nav class="nav container">  
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a class="logo" href="index.html"><img class="logo" src="./images/logo.png" alt="Logo"></a>
             
-          <center>
-            <div class="social">
-                <a href="#"><span class="fab fa-facebook-f"></span></a>
-                <a href="#"><span class="fab fa-instagram"></span></a>
-                <a href="#"><span class="fab fa-twitter"></span></a>
+            <ul class="navigations">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="activeNav" href="#">Shop</a></li>
                 
-             </div> 
-             <div class="credits">
-                 <span class="credit">Created By<span class="creatorName"> Milan Sumonja </span> | </span>
-                <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+            </ul>    
+            
+            <li>
+                <a id="shopping-cart" href="cart.html">
+                    <i class="fas fa-shopping-basket"><span class="CartItemsNumber"> 0</span></i>
+                </a>
+            </li>  
+        </nav>
+        <div class="wrapper">
+            <h1 class="shop-heading">
+                SHOP
+            </h1>
+            <h2  class="shop-heading2">Here you can find our best <span>Premium</span> fruits and veggies. </h2>
+            <div class="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    class="searchBar"
+                    placeholder="Search..."
+                >   
+                <i class="lupa fas fa-search"></i>
             </div>
             
-          </center>
+            <div class="sorting">
+                <select name="sorting" id="sorting">
+                    <option value="" disabled selected>SORT BY :</option>
+                    <option value="nameasc">Name [A-Z]</option>
+                    <option value="namedesc">Name [Z-A]</option>
+                    <option value="priceasc">Price [Ascending]</option>
+                    <option value="pricedesc">Price [Descending]</option>
+                </select>
+            </div>
+    
+            <div id='filtered' class="filtered">
+                
+                <input type='radio' value='all' checked='checked' name='radio' class="radioFiltered" id='radio1'/>
+                <label for='radio1' style="margin-right: 15px;">All</label>
+            
+                <input type='radio' value='fruit' name='radio'  class="radioFiltered" id='radio2'/>
+                <label id='label1' for='radio2'>Fruit </label>
+            
+                <input type='radio' value='veggie' name='radio' class="radioFiltered" id='radio3'/>
+                <label id='label2' for='radio3'>Veggie</label>
+               
+            </div>
+            
+            <h3 class="failedSearchMessage">Oooops... Looks like we don't have that one... <br>But be sure we are working on it.</h3>
+    
+            <div id="shopCont" class="shop-page-container item-container">
+            </div>
+            <div class="pagenumbers" id="pagination"></div>
         </div>
-      </footer>
+        
+        <footer class="footer">
+            <div class="bonus">
+                <h3>First Purchase<br><span>BONUS</span><span><button><a href="bonus.html">GET BONUS</a></button></span> </h3>    
+            </div>
+            <div class="main-content">
+                <div class="content">
+                    <div class="footernav">
+                        
+                            <a href="index.html">Home</a>
+                            <a href="shop.html">Shop</a>          
+                        
+                    </div>
+                    <div class="icons">
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text">Belgrade,Serbia</span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text">+593-25353277</span>
+                        </div>
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">fruveg@gmail.com</span>
+                        </div>                      
+                    </div>
+                    <div class="newsletter">
+                        <h2>Subscribe to Newsletter</h2>
+                          <form class="newsletterForm" action="#">
+                            <input type="email"  placeholder="Email" name="email" required>
+                            <button class="newsletterInput"  type="submit">Subscribe</button>
+                          </form>
+                    </div>
+                </div>            
+            </div>
+    
+            <div class="bottom">
+                
+              <center>
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    
+                 </div> 
+                 <div class="credits">
+                     <span class="credit">Created By<span class="creatorName"> Milan Sumonja </span> | </span>
+                    <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+                </div>
+                
+              </center>
+            </div>
+          </footer>
+    </div>
+    
       
     <script src="app.js"></script>
     <script src="ui.js"></script>
