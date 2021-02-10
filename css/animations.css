@@ -78,7 +78,7 @@
 
 
 @media (max-width:920px){
-  .first .active .showcase-text {
+  .first .active .showcase-fruit-text {
     animation: slideInFromLeft .9s ease-in;
   }
 
